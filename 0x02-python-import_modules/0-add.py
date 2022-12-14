@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-    from add_0 import add
+import add_0
 
-    a, b = 1, 2
-    print('{:d} + {:d} = {:d}'.format(a, b, add(a, b)))
+print(f'{1} + {2} = {add_0.add(1,2)}')
