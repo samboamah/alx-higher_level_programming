@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-import add_0
+from add_0 import add
 
-print(f'{1} + {2} = {add_0.add(1,2)}')
+a,b=1,2
+print(f'{a} + {b} = {add(a,b)}')
