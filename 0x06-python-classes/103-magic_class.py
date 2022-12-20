@@ -2,6 +2,7 @@
 """writing a docstring"""
 import math
 
+
 class MagicClass:
     """set up the magic"""
 
